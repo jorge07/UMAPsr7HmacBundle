@@ -22,7 +22,8 @@
     "require-dev": {
         "guzzlehttp/guzzle": "^6.2",
         "symfony/framework-bundle": "^2.7|^3.0",
-        "symfony/yaml": "^2.7|^3.0"
+        "symfony/yaml": "^2.7|^3.0",
+        "doctrine/common": "^2.7"
     },
     "autoload": {
         "psr-4": {
