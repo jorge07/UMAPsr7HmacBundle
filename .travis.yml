@@ -8,11 +8,10 @@ php:
   - nightly
 
 install:
-  - wget https://phar.phpunit.de/phpunit-old.phar
   - composer install
 
 script:
-  - php phpunit-old.phar
+  - ./vendor/bin/phpunit
 
 notifications:
   email: false
